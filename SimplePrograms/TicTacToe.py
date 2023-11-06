@@ -12,7 +12,7 @@ def createBoard():
 def symbol():
 # This function decides the players' symbols
     symbol1 = input("Player 1, do you want to be X or O? ")
-    if symbol1 == "X":
+    if symbol1.upper() == "X":
         symbol2 = "O"
         print("Player 2, you are O. ")
     else:
